@@ -1,0 +1,128 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul {
+    margin: 0;
+        padding: 0;
+            border: 0;
+            }
+
+            /* Body Styles */
+            body {
+                background-color: #f6eee4;
+                    color: #2a1f14;
+                        font-family: Arial, sans-serif;
+                        }
+
+                        /* Header Styles */
+                        header {
+                            background-color: #2a1f14;
+                                color: #f6eee4;
+                                    padding: 20px;
+                                    }
+
+                                    /* Navigation Styles */
+                                    nav {
+                                        background-color: #2a1f14;
+                                        }
+
+                                        nav ul {
+                                            list-style-type: none;
+                                                text-align: center;
+                                                }
+
+                                                nav li {
+                                                    display: block;
+                                                        font-size: 1.5em;
+                                                            font-weight: bold;
+                                                                border-top: 0.5px solid #f6eee4;
+                                                                }
+
+                                                                nav li a {
+                                                                    display: block;
+                                                                        color: #f6eee4;
+                                                                            padding: 0.5em 1em;
+                                                                                text-decoration: none;
+                                                                                }
+
+                                                                                /* Main Content Styles */
+                                                                                main {
+                                                                                    padding: 2%;
+                                                                                        overflow: auto;
+                                                                                            font-family: 'Lora', serif;
+                                                                                            }
+
+                                                                                            /* Image Styles */
+                                                                                            img {
+                                                                                                max-width: 100%;
+                                                                                                    height: auto;
+                                                                                                    }
+
+                                                                                                    /* Style rules for mobile viewport - Task 04 */
+
+                                                                                                    /* Style rules to show mobile class and hide tab-desk class - Task 04 */
+                                                                                                    .mobile {
+                                                                                                        display: block;
+                                                                                                        }
+
+                                                                                                        .tab-desk {
+                                                                                                            display: none;
+                                                                                                            }
+
+
+                                                                                                            /* Style rules for header area */
+                                                                                                            .mobile h1, .mobile h3 {
+                                                                                                                padding: 2%;
+                                                                                                                    text-align: center;
+                                                                                                                    }
+
+                                                                                                                    /* Font styles - Task 06 */
+                                                                                                                    .mobile h1 {
+                                                                                                                        font-family: 'Emblema One', cursive;
+                                                                                                                        }
+
+                                                                                                                        .mobile h3 {
+                                                                                                                            font-family: 'Lora', serif;
+                                                                                                                            }
+
+                                                                                                                            /* Contact styles */
+                                                                                                                            #contact {
+                                                                                                                                text-align: center;
+                                                                                                                                }
+
+                                                                                                                                /* Tel-link styles - Task 12 */
+                                                                                                                                .tel-link {
+                                                                                                                                    background-color: #2a1f14;
+                                                                                                                                        padding: 2%;
+                                                                                                                                            width: 80%;
+                                                                                                                                                margin: 0 auto;
+                                                                                                                                                }
+
+                                                                                                                                                .tel-link a {
+                                                                                                                                                    color: #f6eee4;
+                                                                                                                                                        text-decoration: none;
+                                                                                                                                                            font-weight: bold;
+                                                                                                                                                            }
+
+                                                                                                                                                            /* Round class for images - Task 09 */
+                                                                                                                                                            .round {
+                                                                                                                                                                border-radius: 6px;
+                                                                                                                                                                }
+
+                                                                                                                                                                /* Info list styles - Task 10 */
+                                                                                                                                                                #info ul {
+                                                                                                                                                                    margin-left: 10%;
+                                                                                                                                                                    }
+
+                                                                                                                                                                    /* Footer Styles */
+                                                                                                                                                                    footer {
+                                                                                                                                                                        text-align: center;
+                                                                                                                                                                            font-size: 0.85em;
+                                                                                                                                                                                background-color: #2a1f14;
+                                                                                                                                                                                    color: #f6eee4;
+                                                                                                                                                                                        padding: 1% 0%;
+                                                                                                                                                                                        }
+
+                                                                                                                                                                                        footer a {
+                                                                                                                                                                                            color: #f6eee4;
+                                                                                                                                                                                                text-decoration: none;
+                                                                                                                                                                                                }
+                                                                                                                                                                                                
